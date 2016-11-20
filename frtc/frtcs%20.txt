@@ -1,0 +1,56 @@
+NAME:
+French Three Cities Study Data (frtcs.dat)
+
+SIZE: 
+697 Observations, 12 Variables
+
+SOURCE: 
+French Three Cities Study
+
+REFERENCE:
+Hosmer, D.W. and Lemeshow, S. and May, S. (2008) 
+Applied Survival Analysis: Regression Modeling of Time to Event Data: 
+Second Edition, John Wiley and Sons Inc., New York, NY
+
+DESCRITPTIVE ABSTRACT:
+Description of the variables in the French Three Cities Study used in exercise 6 
+of Chapter 7 of the reference text.
+
+DISCLAIMER:  
+This data is also available at the following Wiley's FTP site: 
+ftp//ftp.wiley.com/public/sci_tech_med/survival
+
+LIST OF VARIABLES: 
+
+Variable	Name	      Description		          Codes/Values
+********************************************************************************
+1               id            ID Code                             1 - 697
+2               age           Age at enrollment                   years
+3               sex           Gender                              1 = male
+                                                                  2 = female
+4               date0         Date of Baseline                    ddmmmyy
+5               sbp0          Systolic Blood Pressure             mmHg
+                                at Baseline
+6               dbp0          Diastolic Blood Pressure            mmHg
+                                at Baseline
+7               antihyp0      Use of Antihypertensive Drugs       0 = No
+                                at First Follow Up                1 = Yes
+8               date1         Date of Baseline                    ddmmmyy
+9               sbp1          Systolic Blood Pressure             mmHg
+                                at First Follow Up
+10              dbp1          Diastolic Blood Pressure            mmHg
+                                at First Follow Up
+11              antihyp1      Use of Antihypertensive Drugs       0 = No
+                                at First Follow Up                1 = Yes
+12              date2         Date of Second Follow Up            ddmmmyy
+13              sbp2          Systolic Blood Pressure             mmHg
+                                at Second Follow Up
+14              dbp2          Diastolic Blood Pressure            mmHg
+                                at Second Follow Up
+15              antihyp2      Use of Antihypertensive Drugs       0 = No
+                                at Second Follow Up               1 = Yes
+16              date_event    Date of Event or                    ddmmmyy
+                                End of Follow Up
+17              censor        Event Indicator                     1 = Event
+                                                                  0 = Censor
+  

@@ -1,0 +1,30 @@
+While reporting
+================
+
+- Whether the outcomes variable is ordinal (median)
+- whether there are extreme values or outliers (median)
+- If there are no outliers (mean,median)
+    -If both are in favour of mean check if observations a normally distributed
+
+
+What is outlier?
+
+outlier:
+ Q3 + 1.5*(IQR)
+ Q1 - 1.5*(IQR)
+ symbol used is circle
+
+Extreme observations:
+ Q3 + 3*(IQR)
+ Q1 - 3*(IQR)
+ symbol used is star
+
+
+-boxplot
+-densityplot
+
+If it is normally distributed then -> parametric test (indepent, paired, anova)
+If it is not normally distributed then -> non-parametric test (two-sample wilconx, paired-sample wilconx, kruskal)
+
+
+
